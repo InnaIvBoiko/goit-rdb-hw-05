@@ -46,4 +46,32 @@
 
 ### Результат виконаного ДЗ:
 
-<!-- ![Results](./images/p_1.png) -->
+1. Сottoquery в операторі SELECT
+
+![Results](./images/p1_subquery_in_select.png)
+
+2. Сottoquery в операторі WHERE
+
+![Results](./images/p2_subquery_in_where.png)
+
+3. Сottoquery в операторі FROM
+
+![Results](./images/p3_subquery_in_from.png)
+
+4. Той самий результат за допомогою WITH (тимчасова таблиця temp)
+
+![Results](./images/p4_with_temp_table.png)
+
+5. Власна функція divide_numbers
+
+![Results](./images/p5a_drop_function.png)
+
+![Results](./images/p5b_function_created.png)
+
+-- Тест функції
+
+![Results](./images/p5c_test_function.png)
+
+-- Застосування функції до атрибута quantity таблиці order_details
+
+![Results](./images/p5d_apply_function.png)
